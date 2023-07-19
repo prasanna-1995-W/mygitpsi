@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-07T15:56:28 IST" name="Default suite" finished-at="2023-07-07T16:04:38 IST" duration-ms="489959">
+    <groups>
+    </groups>
+    <test started-at="2023-07-07T15:56:28 IST" name="Default test" finished-at="2023-07-07T16:04:38 IST" duration-ms="489959">
+      <class name="Test_Cases.Test_guestuser">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Test_Cases.Test_guestuser@2d1ef81a]" started-at="2023-07-07T15:56:28 IST" name="Setup" finished-at="2023-07-07T15:56:40 IST" duration-ms="11599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="login_guest()[pri:0, instance:Test_Cases.Test_guestuser@2d1ef81a]" started-at="2023-07-07T15:56:40 IST" name="login_guest" finished-at="2023-07-07T15:56:45 IST" duration-ms="5024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_guest -->
+        <test-method signature="login_guest2()[pri:0, instance:Test_Cases.Test_guestuser@2d1ef81a]" started-at="2023-07-07T15:56:45 IST" name="login_guest2" finished-at="2023-07-07T15:56:47 IST" depends-on-methods="Test_Cases.Test_guestuser.login_guest" duration-ms="1554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_guest2 -->
+        <test-method signature="close_hdw()[pri:1, instance:Test_Cases.Test_guestuser@2d1ef81a]" started-at="2023-07-07T15:56:47 IST" name="close_hdw" finished-at="2023-07-07T15:56:57 IST" depends-on-methods="Test_Cases.Test_guestuser.login_guest2" duration-ms="10324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_hdw -->
+        <test-method signature="join_disc()[pri:2, instance:Test_Cases.Test_guestuser@2d1ef81a]" started-at="2023-07-07T15:56:57 IST" name="join_disc" finished-at="2023-07-07T15:56:57 IST" depends-on-methods="Test_Cases.Test_guestuser.close_hdw" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- join_disc -->
+        <test-method signature="add_idea()[pri:3, instance:Test_Cases.Test_guestuser@2d1ef81a]" started-at="2023-07-07T15:56:57 IST" name="add_idea" finished-at="2023-07-07T15:57:09 IST" depends-on-methods="Test_Cases.Test_guestuser.join_disc" duration-ms="11755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_idea -->
+        <test-method signature="waitingroom()[pri:4, instance:Test_Cases.Test_guestuser@2d1ef81a]" started-at="2023-07-07T15:57:09 IST" name="waitingroom" finished-at="2023-07-07T15:57:14 IST" depends-on-methods="Test_Cases.Test_guestuser.add_idea" duration-ms="5179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitingroom -->
+        <test-method signature="review_idea()[pri:5, instance:Test_Cases.Test_guestuser@2d1ef81a]" started-at="2023-07-07T15:57:14 IST" name="review_idea" finished-at="2023-07-07T15:58:31 IST" depends-on-methods="Test_Cases.Test_guestuser.waitingroom" duration-ms="77300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- review_idea -->
+        <test-method signature="discussion_room()[pri:6, instance:Test_Cases.Test_guestuser@2d1ef81a]" started-at="2023-07-07T15:58:31 IST" name="discussion_room" finished-at="2023-07-07T16:04:38 IST" depends-on-methods="Test_Cases.Test_guestuser.review_idea" duration-ms="366907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- discussion_room -->
+      </class> <!-- Test_Cases.Test_guestuser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
